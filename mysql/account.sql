@@ -1,0 +1,33 @@
+CREATE TABLE accounts (
+	id VARCHAR(50) NOT NULL,
+	Fname TEXT(25) NOT NULL,
+	Lname TEXT(25) NOT NULL,
+	Role TEXT(25) NOT NULL,
+	status TEXT(25),
+	Pnumber TEXT(25) NOT NULL,
+	Address TEXT(100) NOT NULL,
+	Zip TEXT(25) NOT NULL,
+	email TEXT(100) NOT NULL,
+	password TEXT(25),
+	numofchild TEXT(10),
+	invoice TEXT(1000),
+	age TEXT(10),
+	birthday TEXT(20),
+	gender TEXT(10),
+	school TEXT(50),
+	grade TEXT(25),
+	expected_grad TEXT(25),
+	emergency_1_n TEXT(25),
+	emergency_1_p TEXT(25),
+	emergency_2_n TEXT(25),
+	emergency_2_p TEXT(25),
+	note TEXT(300),
+	makeUp_credit TEXT(10),
+	college TEXT(50),
+	graduate_date TEXT(50),
+	graduate_college TEXT(50),
+	child_list TEXT(1000),
+	PRIMARY KEY(id)
+);
+
+-- INSERT INTO accounts (id, Fname, Lname, Pnumber, Address ,Zip,Role, email, password) VALUES ("9f2349c86-7960-42cd-8110-e9fbbd4c2b3d", "Ali", "Hassan", "971", "address_mock", "97027", "admin", "alihassan@gmail.com", "test73"); 

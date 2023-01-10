@@ -1,0 +1,21 @@
+CREATE TABLE invoice (
+	`id` TEXT(8),
+	`title` TEXT(100),
+	`creator` TEXT(20),
+	`c_name` TEXT(20),
+	`c_email` TEXT(20),
+	`c_pnum` TEXT(20),
+	`c_uid` TEXT(50),
+	`total` TEXT(50),
+	`i_date` TEXT(50),
+	`f_date` TEXT(50),
+	`paid` TEXT(40),
+	`status` TEXT(40),
+	`i_lst` TEXT(9000),
+	`note` TEXT(9000),
+	`subp` TEXT(10),
+	`subop` TEXT(10),
+	`paid_history` TEXT(9000),
+	`Remains` TEXT(1000),
+	PRIMARY KEY(id)
+);
